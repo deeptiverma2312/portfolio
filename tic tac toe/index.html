@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      <h1 class="won"></h1>
+      <div class="name">
+        <form>
+          <label for="name">Please enter your name</label>
+          <input type="text" class="input" />
+        </form>
+      </div>
+      <div class="card">
+        <div class="choice">
+          <h2>Choose a symbol</h2>
+          <div class="choose">
+            <div class="symbol X">X</div>
+            <div class="symbol O">O</div>
+          </div>
+        </div>
+
+        <div class="arina">
+          <div class="player first symbol">PLAYER 1</div>
+          <div class="player second symbol">PLAYER 2</div>
+        </div>
+        <div>
+          <table id="click">
+            <tr>
+              <td class="one clickable"></td>
+              <td class="two clickable"></td>
+              <td class="three clickable"></td>
+            </tr>
+            <tr>
+              <td class="four clickable"></td>
+              <td class="five clickable"></td>
+              <td class="six clickable"></td>
+            </tr>
+            <tr>
+              <td class="seven clickable"></td>
+              <td class="eight clickable"></td>
+              <td class="nine clickable"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <button class="btn">PLAY AGAIN</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

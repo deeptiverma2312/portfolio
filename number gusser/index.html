@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Number Gusser</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="background-color">
+    <div class="container">
+      <div class="card">
+        <h1>NUMBER GUESSER</h1>
+        <p>Enter a number between <span>0</span> and <span>10</span></p>
+      </div>
+      <form>
+        <input type="number" id="input" />
+        <span><input type="submit" class="submit background-color"/></span>
+      </form>
+      <div class="guess">No of guesses left-2</div>
+      <div class="result">
+        <p class="message"></p>
+        <div class="loading hid">
+          <img src="./dame weird1.gif" alt="loading..." class="loadimg hid" />
+          <p>loading...</p>
+        </div>
+
+        <img src="./gameover.gif" alt="Game Over YOU LOSE" class="lose hid" />
+        <img src="./victory.gif" alt="YOU WON" class="win hid" />
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

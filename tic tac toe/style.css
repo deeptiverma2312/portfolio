@@ -1,0 +1,101 @@
+body {
+  background: #0affff;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  background: white;
+  min-width: 500px;
+  min-height: 550px;
+  border-radius: 10px;
+  outline: 2px solid #0affff;
+  outline-offset: -10px;
+}
+.choose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  min-width: 100px;
+  max-width: 150px;
+  padding: 2px;
+  border: 1px solid #0affff;
+  margin-right: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.arina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  width: 250px;
+  margin-bottom: 50px;
+  font-size: 23px;
+}
+.choose .symbol:hover {
+  font-size: 25px;
+  background: #0affff;
+  cursor: pointer;
+}
+td {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  margin: 30px;
+}
+.clickable:hover {
+  background-color: #b3fafa;
+  cursor: pointer;
+}
+.name {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+input {
+  border: 2px solid #0affff;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+button {
+  border: 2px solid #0affff;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 25px;
+  background: white;
+  display: none;
+}
+button:hover {
+  font-size: 27px;
+  background: #0affff;
+  cursor: pointer;
+}
